@@ -27,7 +27,7 @@ I will say a commit is the volume of change a user is ready to effect by pushing
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 Branching is an important criteria when working with a version control system like github in a collaborative environment. Essentially branching prevents multiple users or collaborators from modifying the same file simultaneously. Branching is just a copy or snapshot of the current project which a user can modify without interferring with the main branch. Changes made on a branch can later be integrated into the main branch. In a typical workflow:
-- User creates and switch to a branch by using the ```git branch -b "branch name"``` command
+- User creates and switch to a branch by using the ```git checkout -b "branch name"``` command
 - next user makes some changes
 - user commit changes
 - then user push changes to the remote branch
